@@ -161,7 +161,7 @@ const About = () => {
         <div className=" bg-gradient-to-b from-[rgba(0,0,0,0.9)_0%] via-[rgba(12,12,12,0.63)_77.4%] to-[rgba(0,0,0,0.9)_97.28%] grid grid-cols-1 content-center bg-opacity-80 ">
           <div className="text-center justify-center md:pt-8 md:text-5xl font-bold ">
             <p className="uppercase text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-transparent bg-clip-text bg-gradient-to-b from-[#FF2D34] to-[#D5242A]  font-bold">
-              ABOUT CONSORTIUM&apos;24
+              ABOUT CONSORTIUM&apos;25
             </p>
           </div>
           <div
