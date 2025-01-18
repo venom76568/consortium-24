@@ -23,7 +23,7 @@ const Footer = () => {
             <div className="grid grid-cols-1 gap-3 md:gap-6 lg:gap-10 md:grid-cols-2 xl:grid-cols-4 lg:col-span-3">
               <div className="flex flex-col items-center lg:items-start gap-2">
                 <p className="font-bold text-red-600 text-base md:text-lg lg:text-xl uppercase text-start">
-                  Consortium&apos;23
+                  Consortium&apos;25
                 </p>
                 <p className="text-center lg:text-left text-[12px] md:text-sm lg:text-base lg:mt-4 w-1/2 lg:w-full">
                   Consortium, the Annual Entrepreneurship Summit and Management

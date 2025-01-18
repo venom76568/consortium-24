@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 
-import conso from "../public/assets/conso.png";
+import conso from "../public/assets/conso25-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 

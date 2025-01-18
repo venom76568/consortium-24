@@ -7,7 +7,7 @@ import Cursor from "@/components/Cursor";
 import Link from "next/link";
 import Image from "next/image";
 import { AnimatePresence, motion, useInView, Variants } from "framer-motion";
-import conso from "@/public/assets/conso.png";
+import conso from "@/public/assets/conso25-logo.png";
 
 const Home = () => {
   gsap.registerPlugin(ScrollTrigger);
