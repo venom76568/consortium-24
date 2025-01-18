@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const Landing = () => {
   return (
-    <div className="min-h-screen max-w-full  bg-red-500 bg-[url('/assets/BackgroundImage1.png')] bg-blend-normal bg-no-repeat bg-center lg:bg-top bg-cover bg-fixed">
+    <div className="min-h-screen max-w-full  bg-red-500 bg-[url('/assets/background25.png')] bg-blend-normal bg-no-repeat bg-center lg:bg-top bg-cover bg-fixed">
       <div className="h-screen bg-gradient-to-t from-[rgba(0,0,0,0.5)_0%] to-[rgb(0,0,0,0.35)_92.5%]">
         <div className="h-[90%] w-full lg:h-full grid grid-rows-6 items-center text-white">
           <div className="row-span-3 w-full h-full flex justify-center items-center lg:items-end">
