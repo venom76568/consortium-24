@@ -22,7 +22,7 @@ const Footer = () => {
             </div>
             <div className="grid grid-cols-1 gap-3 md:gap-6 lg:gap-10 md:grid-cols-2 xl:grid-cols-4 lg:col-span-3">
               <div className="flex flex-col items-center lg:items-start gap-2">
-                <p className="font-bold text-red-600 text-base md:text-lg lg:text-xl uppercase text-start">
+                <p className="font-bold text-red-600 text-base md:text-md lg:text-lg uppercase text-start">
                   Consortium&apos;25
                 </p>
                 <p className="text-center lg:text-left text-[12px] md:text-sm lg:text-base lg:mt-4 w-1/2 lg:w-full">
@@ -71,14 +71,14 @@ const Footer = () => {
                 <p className="font-bold text-base text-red-600 md:text-lg lg:text-xl uppercase text-start">
                   Contact Us
                 </p>
-                <nav className="flex flex-col space-y-1 lg:space-y-2 lg:mt-4 text-start text-[11px] md:text-sm xl:text-base text-white">
+                <nav className="flex flex-col space-y-1 lg:space-y-2 lg:mt-4 text-start text-[11px] md:text-sm xl:text-md text-white">
                   <a
                     className="hover:opacity-75"
                     target="_blank"
                     rel="noreferrer"
                     href="mailto:team_ecell@vnit.ac.in"
                   >
-                    For Queries & Communications: <br />
+                    For Queries & <br />Communications: <br />
                     <strong>team_ecell@vnit.ac.in</strong>
                   </a>
                   <a
@@ -87,7 +87,7 @@ const Footer = () => {
                     rel="noreferrer"
                     href="mailto:corporateaffairs@ecellvnit.co.in"
                   >
-                    For Association and Sponsorship: <br />
+                    For Association & <br /> Sponsorship: <br />
                     <strong>corporateaffairs@ecellvnit.co.in</strong>
                   </a>
                 </nav>
@@ -114,7 +114,7 @@ const Footer = () => {
                         fill="white"
                       />
                     </svg>
-                    <span className="text-[11px] md:text-sm lg:text-lg">
+                    <span className="text-[11px] md:text-sm lg:text-md">
                       Instagram
                     </span>
                   </Link>
@@ -135,7 +135,7 @@ const Footer = () => {
                         fill="white"
                       />
                     </svg>
-                    <span className="text-[11px] md:text-sm lg:text-lg">
+                    <span className="text-[11px] md:text-sm lg:text-md">
                       LinkedIn
                     </span>
                   </Link>
@@ -158,7 +158,7 @@ const Footer = () => {
                         fill="white"
                       />
                     </svg>
-                    <span className="text-[11px] md:text-sm lg:text-lg">
+                    <span className="text-[11px] md:text-sm lg:text-md">
                       Facebook
                     </span>
                   </Link>
@@ -179,7 +179,7 @@ const Footer = () => {
                         fill="white"
                       />
                     </svg>
-                    <span className="text-[11px] md:text-sm lg:text-lg">
+                    <span className="text-[11px] md:text-sm lg:text-md">
                       YouTube
                     </span>
                   </Link>
@@ -200,7 +200,7 @@ const Footer = () => {
                         fill="white"
                       />
                     </svg>
-                    <span className="text-[11px] md:text-sm lg:text-lg">
+                    <span className="text-[11px] md:text-sm lg:text-md">
                       Twitter
                     </span>
                   </Link>
