@@ -132,9 +132,10 @@ const Landing = () => {
           </div>
           <a href="/explore/#about">
             <div className="flex flex-col gap-10 items-center text-center mt-10">
-              <div className="text-lg uppercase font-semibold xl:text-2xl animate-bounce text-transparent bg-clip-text bg-gradient-to-b from-[#FF2D34] to-[#D5242A]">
-                Scroll down
-              </div>
+            <div className="text-lg uppercase font-semibold xl:text-2xl animate-bounce text-transparent bg-clip-text bg-gradient-to-b from-[#FF2D34] to-[#2736FF]">
+  Scroll down
+</div>
+
               <div className="animate-bounce">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
