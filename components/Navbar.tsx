@@ -16,7 +16,6 @@ const navigation = [
   { name: "Events", href: "/events" },
   { name: "Speakers", href: "/speakers" },
   { name: "Team", href: "/team" },
-  // { name: "Sponsors", href: "/sponsors" },
   { name: "Contact", href: "/explore/#contact" },
 ];
 
@@ -49,7 +48,7 @@ const Navbar = () => {
           {navigation.map((item, idx) => (
             <a
               key={idx}
-              className="text-xs lg:text-lg uppercase text-white hover:text-gray-300"
+              className="text-xs lg:text-lg uppercase text-white transition-all duration-300 hover:bg-gradient-to-r hover:from-red-800 hover:to-blue-800 hover:text-transparent hover:bg-clip-text"
               href={item.href}
             >
               {item.name}
@@ -93,7 +92,7 @@ const Navbar = () => {
                     <Popover.Button
                       as="a"
                       key={idx}
-                      className="text-md uppercase text-white hover:text-gray-700"
+                      className="text-md uppercase text-white transition-all duration-300 hover:bg-gradient-to-r hover:from-red-800 hover:to-blue-800 hover:text-transparent hover:bg-clip-text"
                       href={item.href}
                     >
                       {item.name}
