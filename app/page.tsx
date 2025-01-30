@@ -65,7 +65,7 @@ const Home = () => {
           >
             <Image
               src={conso}
-              alt="Consortium 23"
+              alt="Consortium 25"
               className="scale-125 md:scale-100 lg:mt-20"
             />
           </motion.div>

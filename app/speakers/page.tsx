@@ -43,8 +43,8 @@ import vishwajeet from "../../public/assets/speakers/vishwajeet.jpg";
 import adityan from "../../public/assets/speakers/aditya.jpg";
 import sanket from "../../public/assets/speakers/sanket.jpg";
 
-import niramyee from "../../public/assets/team/nirmayee1.jpeg";
-import aneesh from "../../public/assets/team/aneesh3.jpg";
+import anuj from "../../public/assets/team/anuj.jpg";
+import aquib from "../../public/assets/team/aquib.jpg";
 
 const speakersData = [
   {
@@ -347,14 +347,14 @@ const Speakers = () => {
                       <div className="m-auto lg:w-[27rem] hover:shadow-[0_8px_40px_2px_rgba(255,45,52,0.3)] relative border border-red-600 lg:scale-90 mb-5 overflow-hidden group rounded-xl p-5 transition-all duration-500 transform">
                         <div className="flex items-center gap-4">
                           <Image
-                            src={niramyee}
-                            alt="nirmayee"
+                            src={anuj}
+                            alt="anuj"
                             className="w-32 group-hover:w-36 group-hover:h-36 h-32 object-center object-cover rounded-full transition-all duration-500 delay-100 transform"
                           />
 
                           <div className="transition-all transform duration-500">
                             <h1 className="text-white-600 dark:text-gray-200 font-bold">
-                              Nirmayee Bobade
+                              Anuj Singh
                             </h1>
                             <p className="text-gray-400">
                               Head of Public Relations
@@ -363,14 +363,14 @@ const Speakers = () => {
                         </div>
                         <div className="absolute group-hover:bottom-1 -bottom-16 transition-all duration-500 bg-gray-600 dark:bg-gray-100 right-1 rounded-lg">
                           <div className="flex justify-evenly items-center gap-2 p-1 text-2xl text-white dark:text-gray-600">
-                            <Link href="tel:8208701853">
+                            <Link href="tel:9373765481">
                               <FaPhone
                                 size="1.8rem"
                                 fill="black"
                                 className="hover:scale-110 hover:duration-150"
                               />
                             </Link>
-                            <Link href="mailto:bt21mme041@students.vnit.ac.in">
+                            <Link href="mailto:anujsingh.442211@gmail.com">
                               <MdEmail
                                 size="1.8rem"
                                 fill="black"
@@ -378,7 +378,7 @@ const Speakers = () => {
                               />
                             </Link>
                             <Link
-                              href="https://www.linkedin.com/in/nirmayee-bobade-973203228"
+                              href="https://www.linkedin.com/in/anujsingh5"
                               rel="noreferrer"
                               target="_blank"
                             >
@@ -395,14 +395,14 @@ const Speakers = () => {
                       <div className="m-auto lg:w-[27rem] hover:shadow-[0_8px_40px_2px_rgba(255,45,52,0.3)] relative border border-red-600 lg:scale-90 mb-5 overflow-hidden group rounded-xl p-5 transition-all duration-500 transform">
                         <div className="flex items-center gap-4">
                           <Image
-                            src={aneesh}
-                            alt="aneesh"
+                            src={aquib}
+                            alt="aquib"
                             className="w-32 group-hover:w-36 group-hover:h-36 h-32 object-center object-cover rounded-full transition-all duration-500 delay-100 transform"
                           />
 
                           <div className="transition-all transform duration-500">
                             <h1 className="text-white-600 dark:text-gray-200 font-bold">
-                              Aneesh Patil
+                              Aquib Shaikh
                             </h1>
                             <p className="text-gray-400">
                               Head of Public Relations
@@ -415,14 +415,14 @@ const Speakers = () => {
                         </div>
                         <div className="absolute group-hover:bottom-1 -bottom-16 transition-all duration-500 bg-gray-600 dark:bg-gray-100 right-1 rounded-lg">
                           <div className="flex justify-evenly items-center gap-2 p-1 text-2xl text-white dark:text-gray-600">
-                            <Link href="tel:9422277113">
+                            <Link href="tel:8581930601">
                               <FaPhone
                                 size="1.8rem"
                                 fill="black"
                                 className="hover:scale-110 hover:duration-150"
                               />
                             </Link>
-                            <Link href="mailto:aneeshpatil18@gmail.com">
+                            <Link href="mailto:aquibshaikh200215@gmail.com">
                               <MdEmail
                                 size="1.8rem"
                                 fill="black"
@@ -430,7 +430,7 @@ const Speakers = () => {
                               />
                             </Link>
                             <Link
-                              href="https://www.linkedin.com/in/aneesh-patil-500465224/"
+                              href="https://www.linkedin.com/in/aquib-iqbal-shaikh-042504253"
                               rel="noreferrer"
                               target="_blank"
                             >

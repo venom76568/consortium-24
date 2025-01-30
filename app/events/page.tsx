@@ -26,9 +26,9 @@ import shark from "@/public/assets/events/shark.png";
 import vishleshan from "@/public/assets/events/Vishleshan.png";
 import swades from "@/public/assets/events/swades.webp";
 
-import khushi from "../../public/assets/team/khushi3.jpg";
-import jai from "../../public/assets/team/jai1.jpg";
-import shravani from "../../public/assets/team/shravani.jpeg";
+import tanvi from "../../public/assets/team/tanvi.jpg";
+import abhijeet from "../../public/assets/team/abhijeet.jpg";
+import rohit from "../../public/assets/team/rohit2.jpg";
 import { FaLinkedin } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
@@ -134,7 +134,7 @@ const Home = () => {
       title: "Biz-MUN",
       thumbnail: bizmun,
       description:
-        "BIZ-CON is a unique event merging structure of national MUN with a focus on business and commerece.",
+        "BIZ-MUN is a unique event merging structure of national MUN with a focus on business and commerece.",
       site: "https://bizmun.ecellvnit.org",
     },
     {
@@ -192,13 +192,6 @@ const Home = () => {
       description:
         "Shart Tank Conso, an adoption of the shrak tank wherein ten teams will be shortlisted and will be given an opportunity to pitch their ideas to the investors.",
       site: null,
-    },
-    {
-      title: "Render Ico",
-      thumbnail: render,
-      description:
-        "All the world's painted a shade of blue, and we fill it up with catchy designs to move people's eyes from sky to your idea.",
-      site: "https://render-ico.ecellvnit.org",
     },
     {
       title: "Swades",
@@ -284,28 +277,28 @@ const Home = () => {
                       <div className="w-auto hover:shadow-[0_8px_40px_2px_rgba(255,45,52,0.3)] relative border border-red-600 lg:scale-90 mb-5 overflow-hidden group rounded-xl p-5 transition-all duration-500 transform">
                         <div className="flex items-center gap-4">
                           <Image
-                            src={khushi}
-                            alt="khushi"
+                            src={tanvi}
+                            alt="tanvi"
                             className="w-32 group-hover:w-36 group-hover:h-36 h-32 object-center object-cover rounded-full transition-all duration-500 delay-100 transform"
                           />
 
                           <div className="transition-all transform duration-500">
                             <h1 className="text-white-600 dark:text-gray-200 font-bold">
-                              Khushi Tank
+                              Tanvi Malode
                             </h1>
                             <p className="text-gray-400">Head Of Operations</p>
                           </div>
                         </div>
                         <div className="absolute group-hover:bottom-1 -bottom-16 transition-all duration-500 bg-gray-600 dark:bg-gray-100 right-1 rounded-lg">
                           <div className="flex justify-evenly items-center gap-2 p-1 text-2xl text-white dark:text-gray-600">
-                            <Link href="tel:8275844551">
+                            <Link href="tel:9096779472">
                               <FaPhone
                                 size="1.8rem"
                                 fill="black"
                                 className="hover:scale-110 hover:duration-150"
                               />
                             </Link>
-                            <Link href="mailto:khushitank41@gmail.com">
+                            <Link href="mailto:malodetanvi01@gmail.com">
                               <MdEmail
                                 size="1.8rem"
                                 fill="black"
@@ -313,7 +306,7 @@ const Home = () => {
                               />
                             </Link>
                             <Link
-                              href="http://www.linkedin.com/in/khushitank"
+                              href="https://www.linkedin.com/in/tanvi-malode-5744a4258"
                               rel="noreferrer"
                               target="_blank"
                             >
@@ -330,28 +323,28 @@ const Home = () => {
                       <div className="w-auto hover:shadow-[0_8px_40px_2px_rgba(255,45,52,0.3)] relative border border-red-600 lg:scale-90 mb-5 overflow-hidden group rounded-xl p-5 transition-all duration-500 transform">
                         <div className="flex items-center gap-4">
                           <Image
-                            src={jai}
-                            alt="jai"
+                            src={abhijeet}
+                            alt="abhijeet"
                             className="w-32 group-hover:w-36 group-hover:h-36 h-32 object-center object-cover rounded-full transition-all duration-500 delay-100 transform"
                           />
 
                           <div className="transition-all transform duration-500">
                             <h1 className="text-white-600 dark:text-gray-200 font-bold">
-                              Jai Mehra
+                              Abhijeet Singh
                             </h1>
                             <p className="text-gray-400">Head Of Operations</p>
                           </div>
                         </div>
                         <div className="absolute group-hover:bottom-1 -bottom-16 transition-all duration-500 bg-gray-600 dark:bg-gray-100 right-1 rounded-lg">
                           <div className="flex justify-evenly items-center gap-2 p-1 text-2xl text-white dark:text-gray-600">
-                            <Link href="tel:9820919570">
+                            <Link href="tel:09106392134">
                               <FaPhone
                                 size="1.8rem"
                                 fill="black"
                                 className="hover:scale-110 hover:duration-150"
                               />
                             </Link>
-                            <Link href="mailto:rohitmehrajai@gmail.com">
+                            <Link href="mailto:abhijeettsingh2715@gmail.com">
                               <MdEmail
                                 size="1.8rem"
                                 fill="black"
@@ -359,7 +352,7 @@ const Home = () => {
                               />
                             </Link>
                             <Link
-                              href="https://www.linkedin.com/in/jai-mehra-16a112131/"
+                              href="https://www.linkedin.com/in/abhijeet-singh-as1510"
                               rel="noreferrer"
                               target="_blank"
                             >
@@ -376,14 +369,14 @@ const Home = () => {
                       <div className="w-auto hover:shadow-[0_8px_40px_2px_rgba(255,45,52,0.3)] relative border border-red-600 lg:scale-90 mb-5 overflow-hidden group rounded-xl p-5 transition-all duration-500 transform">
                         <div className="flex items-center gap-4">
                           <Image
-                            src={shravani}
-                            alt="shravani"
+                            src={rohit}
+                            alt="rohit"
                             className="w-32 group-hover:w-36 group-hover:h-36 h-32 object-center object-cover rounded-full transition-all duration-500 delay-100 transform"
                           />
 
                           <div className="transition-all transform duration-500">
                             <h1 className="text-white-600 dark:text-gray-200 font-bold">
-                              Shravani Bhongade
+                              Rohit Shrivas
                             </h1>
                             <p className="text-gray-400">Head Of Operations</p>
                             <a
@@ -394,25 +387,21 @@ const Home = () => {
                         </div>
                         <div className="absolute group-hover:bottom-1 -bottom-16 transition-all duration-500 bg-gray-600 dark:bg-gray-100 right-1 rounded-lg">
                           <div className="flex justify-evenly items-center gap-2 p-1 text-2xl text-white dark:text-gray-600">
-                            <Link href="tel:8275782707">
+                            <Link href="tel:7440391889">
                               <FaPhone
                                 size="1.8rem"
                                 fill="black"
                                 className="hover:scale-110 hover:duration-150"
                               />
                             </Link>
-                            <Link href="mailto:shravanibhongade678@gmail.com">
+                            <Link href="mailto:rohitshrivas453@gmail.com">
                               <MdEmail
                                 size="1.8rem"
                                 fill="black"
                                 className="hover:scale-110 hover:duration-150"
                               />
                             </Link>
-                            <Link
-                              href="https://www.linkedin.com/in/shravani-bhongade-836305233"
-                              rel="noreferrer"
-                              target="_blank"
-                            >
+                            <Link href="" rel="noreferrer" target="_blank">
                               <FaLinkedin
                                 size="1.8rem"
                                 fill="black"
