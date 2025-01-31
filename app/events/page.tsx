@@ -25,6 +25,7 @@ import codebizz from "@/public/assets/events/codebizz.jpg";
 import shark from "@/public/assets/events/shark.png";
 import vishleshan from "@/public/assets/events/Vishleshan.png";
 import swades from "@/public/assets/events/swades.webp";
+import jugaad from "@public/assets/events/jugaad-logo.png";
 
 import tanvi from "../../public/assets/team/tanvi.jpg";
 import abhijeet from "../../public/assets/team/abhijeet.jpg";
@@ -150,6 +151,13 @@ const Home = () => {
       description:
         "The IPL Auction offers a platform for participants to witness world-class players and build the strongest team using analytical skills like budget management and prediction.",
       site: "https://ipl.ecellvnit.org",
+    },
+    {
+      title: "JUGAAD",
+      thumbnail: jugaad,
+      description:
+        "JUGAAD is an annual event with the primary goal of fostering skills such as money multiplication, management, creative ideation, bargaining, and more. Each team will be provided with 100 Rupees, and their task is to maximize profits through their creativity.",
+      site: "https://jugaad.ecellvnit.org",
     },
     {
       title: "CEO",

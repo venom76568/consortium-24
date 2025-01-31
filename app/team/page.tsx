@@ -181,7 +181,7 @@ export default function Team() {
         image: tanvi,
         show: true,
         linkedin: "https://www.linkedin.com/in/tanvi-malode-5744a4258",
-        mail: "malodetanvi01@gmail.Com",
+        mail: "malodetanvi01@gmail.com",
         phone: "9096779472",
       },
       {
