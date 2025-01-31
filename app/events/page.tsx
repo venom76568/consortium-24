@@ -25,7 +25,7 @@ import codebizz from "@/public/assets/events/codebizz.jpg";
 import shark from "@/public/assets/events/shark.png";
 import vishleshan from "@/public/assets/events/Vishleshan.png";
 import swades from "@/public/assets/events/swades.webp";
-import jugaad from "@public/assets/events/jugaad-logo.png";
+import jugaad from "../../public/assets/events/jugaad-logo.png";
 
 import tanvi from "../../public/assets/team/tanvi.jpg";
 import abhijeet from "../../public/assets/team/abhijeet.jpg";
