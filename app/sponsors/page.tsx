@@ -472,9 +472,7 @@ const sponsorsData = [
   { category: "Hospitality Partner", images: ["/assets/sponsors2/17.png"] },
   { category: "Streaming Partner", images: ["/assets/sponsors2/19.png"] },
   { category: "Outreach and Media Partner", images: ["/assets/sponsors2/20.png", "/assets/sponsors2/21.png"] },
-  { category: "Media Partner", images: ["/assets/sponsors2/22.png"] },
-  { category: "Startup Expo Logos", images: ["/assets/sponsors2/23.png", "/assets/sponsors2/24.png", "/assets/sponsors2/25.png", "/assets/sponsors2/26.png", "/assets/sponsors2/27.png", "/assets/sponsors2/28.png", "/assets/sponsors2/29.png"] },
-  { category: "Flea fair logo", images: ["/assets/sponsors2/30.png"] },
+  { category: "Media Partner", images: ["/assets/sponsors2/22.png"] }, 
 ];
 
 const Sponsors = () => {
