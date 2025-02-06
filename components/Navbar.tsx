@@ -17,6 +17,7 @@ const navigation = [
   { name: "Speakers", href: "/speakers" },
   { name: "Team", href: "/team" },
   { name: "Contact", href: "/explore/#contact" },
+  { name: "Sponsors", href: "/sponsors"}
 ];
 
 const Navbar = () => {
