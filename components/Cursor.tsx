@@ -23,8 +23,8 @@ const Cursor = ({ isDesktop }: IDesktop) => {
       duration: 0.3,
     });
     gsap.to(follower.current, {
-      scale: 3,
-      duration: 0.3,
+      scale: 2,
+      duration: 0,
     });
   };
 
@@ -35,7 +35,7 @@ const Cursor = ({ isDesktop }: IDesktop) => {
     });
     gsap.to(follower.current, {
       scale: 1,
-      duration: 0.3,
+      duration:0,
     });
   };
 
