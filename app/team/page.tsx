@@ -14,19 +14,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
-import abhiuday from "../../public/assets/advisory/abhiuday.png";
-import akanksha from "../../public/assets/advisory/akanksha.jpg";
-import balpande from "../../public/assets/advisory/balpande.png";
-import borkute from "../../public/assets/advisory/borkute.jpeg";
-import dweeja from "../../public/assets/advisory/dweeja.jpg";
-import kaabra from "../../public/assets/advisory/kaabra.jpeg";
-import kench from "../../public/assets/advisory/kench.png";
-import kushagra from "../../public/assets/advisory/kushagra.jpg";
-import mitali from "../../public/assets/advisory/mitali.jpg";
-import priyanshu from "../../public/assets/advisory/priyanshu.jpg";
-import rohit from "../../public/assets/advisory/rohit.jpg";
-import tanishqa from "../../public/assets/advisory/tanishqa.jpg";
-import tanmay from "../../public/assets/advisory/tanmay.jpg";
+
 import karthik_sir from "../../public/assets/advisory/karthik_sir.png";
 import bhatt_sir from "../../public/assets/advisory/bhatt_sir.png";
 import director from "../../public/assets/advisory/director.png";
@@ -35,23 +23,30 @@ import chandra_sir from "../../public/assets/team/chandra_sir.jpg";
 
 import agasti_sir from "../../public/assets/team/agasti_sir.jpeg";
 import bhosale_sir from "../../public/assets/team/bhosale_sir.jpg";
-import harsh from "@/public/assets/team/harsh.jpg";
-import aneesh from "../../public/assets/team/aneesh3.jpg";
-import harshitha from "../../public/assets/team/harshitha2.jpg";
-import jai from "../../public/assets/team/jai1.jpg";
-import khushi from "../../public/assets/team/khushi3.jpg";
-import nikhil from "../../public/assets/team/nikhil3.jpg";
-import pranay from "../../public/assets/team/pranay3.jpg";
-import shravani from "../../public/assets/team/shravani.jpeg";
-import shruti from "../../public/assets/team/shruti1.jpg";
-import anubhav from "../../public/assets/team/anubhav.jpg";
-import ishan from "../../public/assets/team/ishan4.jpg";
-import aditya from "../../public/assets/team/aditya7.jpg";
-import sanchit from "../../public/assets/team/sanchit.png";
-import nirmayee from "../../public/assets/team/nirmayee1.jpeg";
-import kshitj from "../../public/assets/team/kshitij.jpg";
-import devesh from "../../public/assets/team/devesh.jpg";
-import shreyas from "../../public/assets/team/shreyas.jpg";
+
+
+
+
+import anush1 from "../../public/assets/team/Anushka25.jpg";
+
+import prashant from "../../public/assets/team/Prashant.jpg";
+
+
+import sram from "../../public/assets/team/Sram.jpeg";
+import raksh from "../../public/assets/team/Rkashit.jpg";
+import princ from "../../public/assets/team/princ.jpg";
+import chavan from "../../public/assets/team/chavan.jpeg";
+import sahil from "../../public/assets/team/Sahils.jpeg";
+import arja from "../../public/assets/team/arja.jpeg";
+import Aryan from "../../public/assets/team/AryanSingh.jpg";
+import arpit from "../../public/assets/team/Arpi.png";
+import prgya from "../../public/assets/team/Pragya.jpeg";
+import mohit from "../../public/assets/team/mohit.jpg";
+import dhruv from "../../public/assets/team/Dhrooooov.jpg";
+import tanisha from "../../public/assets/team/Tanisha.jpg";
+import chayan from "../../public/assets/team/chayan.jpg";
+import khatri from "../../public/assets/team/khatri.jpg";
+
 import anshul from "../../public/assets/team/Anshul.jpg";
 import tanvi from "../../public/assets/team/tanvi.jpg";
 import bhakti from "../../public/assets/team/bhakti.jpg";
@@ -145,25 +140,187 @@ export default function Team() {
     ],
     Core: [
       {
+        
         id: 1,
-        title: "Ishaan Pandey",
+        title: "Abhijeet Singh",
         position: "President",
-        image: ishan,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/ishan-pandey-489a3519b",
-        mail: "ishanpandey@duck.com",
-        phone: "6376317859",
+        image: abhijeet,
+              show: true,
+        linkedin: "https://www.linkedin.com/in/abhijeet-singh-as1510",
+        mail: "abhijeettsingh2715@gmail.com",
+        phone: "09106392134",
       },
       {
         id: 2,
-        title: "Pranay Gaidhane",
+        title: "Tanvi Malode",
         position: "Vice President",
-        image: pranay,
+        image: tanvi,
         show: true,
-        linkedin: "https://www.linkedin.com/in/pranay-gaidhane-319843217",
-        mail: "gaidhanepranay19@gmail.com",
-        phone: "8308728488",
+        linkedin: "https://www.linkedin.com/in/tanvi-malode-5744a4258",
+        mail: "malodetanvi01@gmail.com",
+        phone: "9096779472",
       },
+      {
+        id: 3,
+        title: "Prashant T Labde",
+        position: "Treasurer",
+        image: prashant,
+        show: true,
+        linkedin: "https://www.linkedin.com/in/prashanttlabde",
+        mail: "Prashantlabade108@gmail.com",
+        phone: "7499995479",
+      },
+      {
+        id: 4,
+        title: "K D Sriram",
+        position: "Head of Corporate Communications",
+        image: sram,
+        show: true,
+        linkedin: "https://www.linkedin.com/in/dhana-sriram-katta-961b6a335",
+        mail: "kdsriram.11@gmail.com",
+        phone: "9130692448",
+      },
+      {
+        id: 5,
+        title: "Anushka Kumari",
+        position: "Head of Corporate Communications",
+        image: anush1,
+        show: true,
+        linkedin: "https://www.linkedin.com/in/anushkak0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        mail: "anushkak0954@gmail.com",
+        phone: "8779165100",
+      },
+      {
+  id: 6,
+  title: "Rakshit Singhvi",
+  position: "Head of Corporate Communications",
+  image: raksh,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/rakshit-singhvi-75252a239/",
+  mail: "rakshitsinghvi2005@gmail.com",
+  phone: "9702696983",
+},
+{
+  id: 7,
+  title: "Prince Kumar",
+  position: "Head of Brand Marketing",
+  image: princ,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/prince-nirala-201546284?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  mail: "princet905624@gmail.com",
+  phone: "9878259975",
+},
+{
+  id: 8,
+  title: "Saurabh Chavan",
+  position: "Head of Brand Marketing",
+  image: chavan,
+  show: true,
+  linkedin: "",  // no LinkedIn link provided
+  mail: "chavansaurabh782@gmail.com",
+  phone: "7841953918",
+},
+{
+  id: 9,  
+  title: "Sahil Shetty",
+  position: "Head Of Public Relations",
+  image: sahil,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/sahillshetty",
+  mail: "shetty.sahil2006@gmail.com",
+  phone: "9137702898",
+},
+
+{
+  id: 10,
+  title: "Aarja Kaur Wadhwa",
+  position: "Head Of Public Relations",
+  image: arja,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/aarja-kaur-wadhwa-773679365?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  mail: "aarjakaurw@gmail.com",
+  phone: "8767042611",
+},
+
+{
+  id: 11,
+  title: "Aryan Singh",
+  position: "Head of Technical Affairs",
+  image: Aryan,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/aryan-singh0811",
+  mail: "aryansingh81104@gmail.com",
+  phone: "7985447278",
+},
+{
+  id: 12, // assuming next id
+  title: "Pragya Chakravarty",
+  position: "Head of Operations and Planning",
+  image: prgya,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/pragya-chakravarty-a82209327",
+  mail: "pragyac09@gmail.com",
+  phone: "9769091274",
+},
+{
+  id: 13, // assuming next id
+  title: "Arpit Sahu",
+  position: "Head of Operations and Planning",
+  image: arpit,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/arpit-sahu-894058288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  mail: "arpit.shahu827@gmail.com",
+  phone: "7897416094",
+},
+{
+  id: 14, // assuming next id
+  title: "Mohit Chavan",
+  position: "Head of Operations and Planning",
+  image: mohit,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/mohit-chavan-5188761b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  mail: "mohitchavan917@gmail.com",
+  phone: "9322010629",
+},
+{
+  id: 15, // example id, update as needed
+  title: "Dhroov Jindal",
+  position: "Head of Growth & Partnerships",
+  image: dhruv,
+  show: true,
+  linkedin: "https://linkedin.com/in/dhroov-jindal",
+  mail: "dhroovjindal@gmail.com",
+  phone: "8950674313",
+},
+{
+  id: 16, // example id, update as needed
+  title: "Tanisha Kanchan",
+  position: "Head of Growth & Partnerships",
+  image: tanisha,
+  show: true,
+  linkedin: "https://www.linkedin.com/in/tanisha-kanchan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+  mail: "tanishakanchan20@gmail.com",
+  phone: "9695449226",
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
+
+    ],
+    Advisory: [
       {
         id: 3,
         title: "Anshul Mukati",
@@ -174,16 +331,7 @@ export default function Team() {
         mail: "anshulmukati2021@gmail.com",
         phone: "9479402002",
       },
-      {
-        id: 4,
-        title: "Tanvi Malode",
-        position: "Head of Operations & Planning",
-        image: tanvi,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/tanvi-malode-5744a4258",
-        mail: "malodetanvi01@gmail.com",
-        phone: "9096779472",
-      },
+      
       {
         id: 5,
         title: "Rohit Shrivas",
@@ -194,16 +342,7 @@ export default function Team() {
         mail: "rohitshrivas453@gmail.com",
         phone: "7440391889",
       },
-      {
-        id: 6,
-        title: "Abhijeet Singh",
-        position: "Head of Operations & Planning",
-        image: abhijeet,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/abhijeet-singh-as1510",
-        mail: "abhijeettsingh2715@gmail.com",
-        phone: "09106392134",
-      },
+      
       {
         id: 7,
         title: "Harsh Agrawal",
@@ -314,148 +453,6 @@ export default function Team() {
         linkedin: "https://www.linkedin.com/in/kaushik-reddyshetty-2b4b80229",
         mail: "kaushikreddyshetty123@gmail.com",
         phone: "9063060617",
-      },
-    ],
-    Advisory: [
-      {
-        id: 5,
-        title: "Shruti Jain",
-        position: "Head of Corporate Communications",
-        image: shruti,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/shruti-jain-195155247",
-        mail: "shrutijain2019@gmail.com",
-        phone: "8278600575",
-      },
-      {
-        id: 6,
-        title: "Aditya Wasu",
-        position: "Head of Corporate Communications",
-        image: aditya,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/aditya-wasu-90bb27231/",
-        mail: "adityawasu2003@gmail.com",
-        phone: "9607514668",
-      },
-      {
-        id: 7,
-        title: "Harshitha Rampuram",
-        position: "Head of Brand Marketing",
-        image: harshitha,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/harshitha-rampuram-1b3523253/",
-        mail: "harshitharampuram@gmail.com",
-        phone: "9133903343",
-      },
-      {
-        id: 8,
-        title: "Harsh Badala",
-        position: "Head of Technical Affairs",
-        image: harsh,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/harsh-badala-7aa11a226",
-        mail: "harshbadala0805@gmail.com",
-        phone: "7506689311",
-      },
-      {
-        id: 9,
-        title: "Sanchit Padwekar",
-        position: "Head of Technical Affairs",
-        image: sanchit,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/sanchit-padwekar-57909a216/",
-        mail: "padwekarsanchit@gmail.com",
-        phone: "9607175193",
-      },
-      {
-        id: 10,
-        title: "Aneesh Patil",
-        position: "Head Of Public Relations",
-        image: aneesh,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/aneesh-patil-500465224/",
-        mail: "aneeshpatil18@gmail.com",
-        phone: "9422277113",
-      },
-      {
-        id: 11,
-        title: "Nirmayee Bobade",
-        position: "Head Of Public Relations",
-        image: nirmayee,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/nirmayee-bobade-973203228",
-        mail: "bt21mme041@students.vnit.ac.in",
-        phone: "8208701853",
-      },
-      {
-        id: 12,
-        title: "Anubhav Singh",
-        position: "Head of Media and Publicity",
-        image: anubhav,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/anubhav-singh-970417235",
-        mail: "anubhav.singh.2520@gmail.com",
-        phone: "7977491211",
-      },
-      {
-        id: 13,
-        title: "Khushi Tank",
-        position: "Head of Public Relations",
-        image: khushi,
-        show: true,
-        linkedin: "http://www.linkedin.com/in/khushitank",
-        mail: "khushitank41@gmail.com",
-        phone: "8275844551",
-      },
-      {
-        id: 14,
-        title: "Jai Mehra",
-        position: "Head of Operations",
-        image: jai,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/jai-mehra-16a112131/",
-        mail: "rohitmehrajai@gmail.com",
-        phone: "9820919570",
-      },
-      {
-        id: 15,
-        title: "Shravani Bhongade",
-        position: "Head of Operations",
-        image: shravani,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/shravani-bhongade-836305233",
-        mail: "shravanibhongade678@gmail.com",
-        phone: "8275782707",
-      },
-      {
-        id: 14,
-        title: "Devesh Khilnani",
-        position: "Head of Product and Consulting",
-        image: devesh,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/devesh-khilnani/",
-        mail: "deveshkhilani1@gmail.com",
-        phone: "9993494640",
-      },
-      {
-        id: 15,
-        title: "Shreyas Jaiwal",
-        position: "Head of Growth and Strategy",
-        image: shreyas,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/shreyasjaiwal/",
-        mail: "shreyasjaiwaloffice@gmail.com",
-        phone: "7841889941",
-      },
-      {
-        id: 16,
-        title: "Kshitij Burman",
-        position: "Head of Product and Consulting",
-        image: kshitj,
-        show: true,
-        linkedin: "https://www.linkedin.com/in/kshitijburman/",
-        mail: "kshitijburman2002@gmail.com",
-        phone: "9022615920",
       },
     ],
   });
