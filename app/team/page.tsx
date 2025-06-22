@@ -17,7 +17,7 @@ import Footer from "@/components/Footer";
 
 import karthik_sir from "../../public/assets/advisory/karthik_sir.png";
 import bhatt_sir from "../../public/assets/advisory/bhatt_sir.png";
-import director from "../../public/assets/advisory/director.png";
+import director from "../../public/assets/advisory/director.jpg";
 import ratnesh_sir from "../../public/assets/team/ratnesh_sir.jpeg";
 import chandra_sir from "../../public/assets/team/chandra_sir.jpg";
 
@@ -69,7 +69,7 @@ export default function Team() {
     Admin: [
       {
         id: 0.1,
-        title: "Dr. P. Padole",
+        title: "Dr. P. L. Patel",
         position: "Director, VNIT",
         image: director,
         show: true,
@@ -77,7 +77,7 @@ export default function Team() {
         phone: undefined,
         mail: undefined,
       },
-      {
+      /*{
         id: 0.2,
         title: "Dr. R. Kumar",
         position: "Dean Student Welfare, VNIT",
@@ -106,20 +106,10 @@ export default function Team() {
         linkedin: undefined,
         phone: undefined,
         mail: undefined,
-      },
+      },*/
       {
         id: 0.5,
-        title: "Dr. K. Balasundaram",
-        position: "Professor Incharge",
-        image: karthik_sir,
-        show: true,
-        linkedin: undefined,
-        phone: undefined,
-        mail: undefined,
-      },
-      {
-        id: 0.6,
-        title: "Dr. A. Agasti",
+        title: "Dr. Amrut Agasti",
         position: "Professor Incharge",
         image: agasti_sir,
         show: true,
@@ -128,10 +118,20 @@ export default function Team() {
         mail: undefined,
       },
       {
-        id: 0.7,
-        title: "Dr. U. B. Bhosale",
+        id: 0.6,
+        title: "Dr. Ashish P. Khatri",
         position: "Professor Incharge",
-        image: bhosale_sir,
+        image: khatri,
+        show: true,
+        linkedin: undefined,
+        phone: undefined,
+        mail: undefined,
+      },
+      {
+        id: 0.7,
+        title: "Dr. Chayan Das",
+        position: "Professor Incharge",
+        image: chayan,
         show: true,
         linkedin: undefined,
         phone: undefined,
